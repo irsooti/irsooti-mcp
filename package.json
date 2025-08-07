@@ -1,9 +1,9 @@
 {
   "name": "@irsooti/mcp",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "type": "module",
   "bin": {
-    "irsooti-mcp": "./build/index.js"
+    "mcp": "build/index.js"
   },
   "scripts": {
     "start": "node build/index.js --transport http",
@@ -19,7 +19,7 @@
   ],
   "author": "Daniele Irsuti",
   "license": "ISC",
-  "description": "",
+  "description": "A set of tools to work with ModelContextProtocol",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.11.0",
     "zod": "^3.24.4"
