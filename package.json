@@ -1,0 +1,28 @@
+{
+  "name": "@irsooti/mcp",
+  "version": "1.0.1",
+  "main": "index.js",
+  "bin": {
+    "irsooti-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc && chmod 755 build/index.js",
+    "publish": "npm publish --access public"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.15",
+    "typescript": "^5.8.3"
+  }
+}
